@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timesheet App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Timesheet App</h1>
+    <form id="timesheetForm">
+        <label for="projectName">Project Name:</label><br>
+        <input type="text" id="projectName" name="projectName"><br>
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date"><br>
+        <label for="assignedDate">Assigned Date:</label><br>
+        <input type="date" id="assignedDate" name="assignedDate"><br>
+        <label for="assignPoc">Assign POC:</label><br>
+        <input type="text" id="assignPoc" name="assignPoc"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
